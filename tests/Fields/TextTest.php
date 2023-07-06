@@ -46,7 +46,7 @@ class TextTest extends TestCase
         $this->assertSame('text', $field['type']);
     }
 
-    public function testReadOnly()
+    public function testWritable()
     {
         $field = Text::make('Text Read Only')->readOnly()->toArray();
         $this->assertTrue($field['readonly']);
