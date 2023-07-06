@@ -18,7 +18,7 @@ use WordPlate\Acf\Fields\Attributes\DefaultValue;
 use WordPlate\Acf\Fields\Attributes\Disabled;
 use WordPlate\Acf\Fields\Attributes\Instructions;
 use WordPlate\Acf\Fields\Attributes\Placeholder;
-use WordPlate\Acf\Fields\Attributes\ReadOnly;
+use WordPlate\Acf\Fields\Attributes\Writable;
 use WordPlate\Acf\Fields\Attributes\Required;
 use WordPlate\Acf\Fields\Attributes\Wrapper;
 
@@ -29,7 +29,7 @@ class Url extends Field
     use Disabled;
     use Instructions;
     use Placeholder;
-    use ReadOnly;
+    use Writable;
     use Required;
     use Wrapper;
 

@@ -20,7 +20,7 @@ use WordPlate\Acf\Fields\Attributes\Disabled;
 use WordPlate\Acf\Fields\Attributes\Instructions;
 use WordPlate\Acf\Fields\Attributes\Pending;
 use WordPlate\Acf\Fields\Attributes\Placeholder;
-use WordPlate\Acf\Fields\Attributes\ReadOnly;
+use WordPlate\Acf\Fields\Attributes\Writable;
 use WordPlate\Acf\Fields\Attributes\Required;
 use WordPlate\Acf\Fields\Attributes\Wrapper;
 
@@ -33,7 +33,7 @@ class Text extends Field
     use Instructions;
     use Pending;
     use Placeholder;
-    use ReadOnly;
+    use Writable;
     use Required;
     use Wrapper;
 
